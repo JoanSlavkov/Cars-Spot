@@ -1,0 +1,737 @@
+
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+  max-width: 100%;
+   
+  font-family: "Roboto Flex", sans-serif;
+}
+h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #282828;
+}
+h3{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #282828;
+}
+h4, h5{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.footer p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.section a{
+  font-family: "Roboto Condensed", sans-serif;
+}
+.summary p{
+  font-family: "Roboto Condensed", sans-serif;
+  
+}
+.summary a{
+  font-family: "Roboto Condensed", sans-serif;
+}
+.article p{
+  font-family: "Roboto Condensed", sans-serif;
+}
+/*JS ANIMATION*/
+.fadejs{
+
+  opacity: 0;
+  transform: translateX(-50px);
+   transition: all 0.5s;
+  }
+  .show {
+    transform: translateX(0px);
+    opacity: 1;
+   
+   
+  }
+  
+/*JS ANIMATION*/
+/*Image Slider*/
+.card {
+ background-color: black;
+    height: 350px;
+    
+   
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    flex: 500px 0 0;
+  }
+  
+  .cards img {
+      width: 700px;
+      object-fit: cover;
+      height: auto;
+  }
+  .cards-wrapper {
+    margin-left: 5.3rem;
+    display: flex; 
+    
+    transition: ease 1s;
+    gap: 50px;
+    
+  }
+  .display-area {
+   
+    
+    
+ 
+  margin-left: 0;
+    overflow-x:hidden;
+    margin:auto
+  }
+  
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.4rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+  
+  .dot {
+   
+    border: none;
+    background: rgba(115, 111, 111, 0.2);
+    width: 10px;
+    height: 10px;
+    margin-top: 60px;
+    margin-left: 5px ;
+    margin-right: 9px;
+    margin-bottom: 50px;
+   
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .dot.active {
+    background: rgba(16, 0, 240, 0.71);
+  }
+
+  /*Image Slider*/
+  /*Rozwiń*/
+
+
+  #more1{
+    display: none;
+    
+  }
+  #more2{
+    display: none;
+  }
+  /*Rozwiń*/
+  summary p{
+     font-family: "Open Sans", sans-serif;
+     font-weight: 700
+  }
+  summary a{
+     font-family: "Open Sans", sans-serif;
+    
+  }
+  section a{
+    font-family: "Open Sans", sans-serif;
+    
+
+  }
+  /*Media Queries*/
+  @media (max-width: 2561px){
+     html{
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+    .galeria{
+      margin-left: 55rem;
+      
+    }
+    .faq{
+      margin-right: 20rem;
+    }
+    .gray-svg{
+      width:78rem;
+      height: 65rem;
+    }
+    .cars{
+      width: 1500px;
+      margin-left:42rem
+    }
+   
+    .article h2{
+      font-size: 8rem;
+      margin-top: 15rem;
+    }
+    .article p{
+      font-size: 3rem;
+    }
+    .header button{
+      font-size: 1rem ;
+    }
+    .card {
+      background-color: white;
+         height: 500px;
+         
+        
+         color: white;
+         font-size: 10px;
+         margin: 10px;
+         flex:700px 0 0;
+       }
+  }
+  @media (max-width: 1920px){
+    body html{
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+    .galeria{
+      margin-left: 35rem;
+      margin-right: 0;
+    }
+    .faq{
+      margin-left: 30px;
+      margin-right: 2rem;
+    }
+    .cars{
+      width: 96rem;
+      margin-left:0;
+    }
+    .article h2{
+      font-size: 4rem;
+      margin-top: 0;
+    }
+    .article p{
+      font-size: 1rem;
+    }
+   
+    .card {
+      background-color: black;
+         height: 350px;
+         
+        
+         color: white;
+         font-size: 10px;
+         margin: 10px;
+         flex: 500px 0 0;
+       }
+       .cars{
+        width: 66rem;
+      }
+      .gray-svg{
+        width: 36rem;
+        height: 35.8rem;
+      }
+    
+  }
+  
+  @media (max-width: 1868px){
+    .cars{
+      width: 93rem;
+    }
+    .gray-svg{
+      width: 45rem;
+      height: 35.8rem;
+    }
+  }
+  
+  @media (max-width: 1440px){
+     html{
+      overflow-x: hidden;
+     
+    }
+    .galeria{
+      margin-left: 27rem;
+    }
+    .cars{
+      width: 66rem;
+    }
+    .gray-svg{
+      width: 36rem;
+      height: 35.8rem;
+    }
+    .header button{
+      margin-left: 22rem;
+    }
+    .dots-wrapper{
+      margin-left:4rem;
+    }
+   
+  }
+  @media (max-width: 1344px){
+    .galeria{
+      margin-left: 21rem;
+    }
+    .gray-svg{
+      width: 36rem;
+      height: 36.4rem;
+    }
+    .dots-wrapper{
+      margin-left: 0;
+    }
+    .faq{
+      margin-right: 1rem;
+    }
+  }
+  @media (max-width: 1024px){
+   .header a{
+    font-size: 0.8rem;
+    margin-left: 10rem;
+   }
+
+  .header button{
+    margin-left: 9rem;
+
+  }
+  
+  .cars{
+    width: 40rem;
+  }
+  .gray-svg{
+    display: none;
+  }
+  .dots-wrapper{
+    margin-left: 5rem;
+  }
+}
+  @media (max-width: 768px) {
+    header{
+      width: 100%;
+      flex-wrap: nowrap;
+      display: flex;
+      flex-direction: column;
+     
+      
+      
+      
+    }
+   
+     
+      header img{
+        margin: 0;
+        
+        
+  
+      }
+      .header a{
+        
+        margin-left:5rem;
+      }
+      .header button{
+        margin-left: 3rem;
+      }
+      #btnheader{
+       width: 7rem;
+        font-size: 0.7rem;
+      }
+      .article{
+        width: 60%;
+        height: 20px;
+        margin-top: 8rem;
+      }
+      .article h2{
+        font-size: 3rem;
+      }
+      button{
+        width: 7rem;
+        font-size: 0.7rem;
+      }
+      body{
+        font-size: 0.9rem
+      }
+    .gray-svg {
+      display: none;
+    }
+    .cars{
+      width: 24rem;
+      margin-top: 6rem;
+    }
+   .section{
+    margin-top: 23rem;
+   }
+   
+   .card {
+    background-color: black;
+       height: 200px;
+       
+      
+       color: white;
+       font-size: 10px;
+       margin: 10px;
+       flex: 300px 0 0;
+     
+}
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+  }
+  @media (max-width: 619px){
+    .article button{
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 426px){
+   .galeria{
+  display: none;
+   }
+   .header button{
+    display: none;
+   }
+    .cars{
+      display: none;
+    }
+    .card {
+      all: unset;
+     }
+       
+       .cards img {
+        all: unset;
+        
+       }
+      
+       .cards-wrapper {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+         
+       }
+       .display-area {
+        all: unset;
+        
+        
+        
+         
+         
+      
+       
+         overflow-x:hidden;
+         margin:auto
+       }
+       
+       .dots-wrapper {
+        all: unset;
+        
+       }
+       
+       .dot {
+        
+        all: unset;
+        
+       }
+       .dot:hover {
+        all: unset;
+        
+       }
+       .dot.active {
+        all: unset;
+        
+       }
+       .footer{
+  
+        margin: auto;
+        flex-direction: column;
+        gap: 50px;
+        border: none;
+        
+       
+       }
+       .rozwin1{
+        margin-left: 0;
+       }
+       .summary{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        
+       }
+       .summary p{
+        margin-left: 130px
+       }
+       .summary p, a{
+        font-size: 0.5rem;
+       }
+       .summary p{
+        margin-left: 120px;
+      }
+      
+      
+
+  }
+  @media (max-width: 375px){
+   
+    .cars{
+      display: none;
+    }
+    .card {
+      all: unset;
+     }
+       
+       .cards img {
+        all: unset;
+        
+       }
+      
+       .cards-wrapper {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+         
+       }
+       .display-area {
+        all: unset;
+        
+        
+        
+         
+         
+      
+       
+         overflow-x:hidden;
+         margin:auto
+       }
+       
+       .dots-wrapper {
+        all: unset;
+        
+       }
+       
+       .dot {
+        
+        all: unset;
+        
+       }
+       .dot:hover {
+        all: unset;
+        
+       }
+       .dot.active {
+        all: unset;
+        
+       }
+       @media (max-width: 358px){
+        .article{
+          margin-left: 60px;
+        }
+       }
+      
+       .summary p{
+        margin-left: 40px;
+      }
+      
+  @media (max-width: 320px){
+  
+    
+    .header{
+      text-align:center;  
+      flex-direction: column;
+      justify-content: left;
+      
+      
+      margin-bottom: 50px;
+      
+     
+      padding-top: 10px;
+      
+      width: 100%;
+      margin-right: 0;
+    }
+    .faq{
+      transform: translateX(-20px);
+      margin-top: 10px;
+    }
+    .header img{
+      
+      
+      
+      
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgb(240, 236, 236);
+      transform: translateX(-2.5rem);
+     
+      
+      
+      
+
+    }
+    .galeria{
+      display: none;
+
+      
+     
+      
+    
+    }
+   
+    .header button{
+      display: none;
+    
+     
+    }
+  
+   
+    .article{
+      
+      
+      width: 50%;
+     
+      margin-left: 6rem;
+      margin-top: 0;
+      transform: translateX(-1.5rem);
+      
+    }
+    .article h2{
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+    
+    .article button{
+      margin-top: 10px;
+    }
+    button{
+      width: 5rem;
+      font-size: 0.7rem;
+    }
+    body{
+      font-size: 0.9rem
+    }
+  .gray-svg {
+    display: none;
+  }
+  .cars{
+    display: none;
+  }
+ .section{
+  margin-top: 23rem;
+  transform: translateX(-20px);
+ 
+  
+ }
+ .section h3{
+  font-size: 2rem;
+ }
+ .section a{
+  text-decoration: none;
+  font-size: 1rem;
+ }
+ 
+ .footer{
+  
+  margin: auto;
+  flex-direction: column;
+  gap: 80px;
+  border: none;
+  
+ 
+ }
+
+ .footer h4, h5{
+  font-size: 1rem;
+  
+  
+ }
+ .card {
+  all: unset;
+ }
+   
+   .cards img {
+    all: unset;
+    
+   }
+  
+   .cards-wrapper {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+     
+   }
+   .display-area {
+    all: unset;
+    
+    
+    
+     
+     
+  
+   
+     overflow-x:hidden;
+     margin:auto
+   }
+   
+   .dots-wrapper {
+    all: unset;
+    
+   }
+   
+   .dot {
+    
+    all: unset;
+    
+   }
+   .dot:hover {
+    all: unset;
+    
+   }
+   .dot.active {
+    all: unset;
+    
+   }
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+  }
+ 
+  .rozwin1{
+    display: block;
+    padding: 2px;
+    margin-left: 0;
+  }
+  .rozwin2{
+    
+    display: block;
+    margin-left: 0;
+    padding: 2px;
+  }
+  .summary p{
+    margin-left: 75px;
+  }
+
+
+
+  
+ 
+    
+    
+
+
+  }
+ 

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Spot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,
+wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,
+    wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" 
+rel="stylesheet">
+
+    
+    
+</head>
+
+<body  class="overflow-x-hidden max-w-fit" >
+    
+    <header class=" header  flex  flex-row   items-center  h-20 ">
+     
+         <img class="logo ml-24 w-28" src="img/Group 255.svg" alt=""> 
+        
+    
+        
+            <a class=" galeria     ml-80 mr-4 " href="#galeria">Galeria zdjęć</a>
+        <a  class=" faq   mr-1  " href="">FaQ</a>
+    
+        <button  class="  btnheader relative ml-72 mr-1 w-44  p-3 bg-[rgb(1,71,255)]
+         text-white rounded-lg duration-500  hover:scale-105">Zadzwoń do nas
+
+        </button>
+    </header>
+    <main>
+        <article class="article w-3/5 mt-20 ml-24">
+            
+            <h2 class=" fadejs text-6xl uppercase text-left mb-11">Sprzedajemy samochody <br> z Europy</h2>
+            <p class="mb-11 ">Kup komfortowy pojazd, aby każda podróż <br> 
+                była wyjątkowym przeżyciem.</p>
+            <button class=" fadejs w-44 mr-4  p-3 bg-[rgb(1,71,255)] text-white border-2
+             border-blue-700 rounded-lg hover:scale-105">Zobacz zdjęcia
+            </button>
+            <button class=" fadejs w-44 p-3  border-2 border-[rgb(95,134,252)] 
+            z-auto rounded-lg   hover:scale-105 ">Zadzwoń do nas
+        </button>
+            <img  class=" gray-svg w-[43%] h-[590px] absolute translate-x-[95%] 
+            -z-40 -translate-y-[84%] " src="img/background.svg" alt="">
+            <img  class="   cars w-9/12 translate-x-72 absolute -translate-y-1/4
+             -z-30 " src="img/cars.png" alt="">
+            
+            
+            
+        </article>
+        <section class=" section mt-52 ml-24 mb-11 pt-4 ">
+            <p class=" fadejs text-[rgb(1,71,255)] font-normal text-xl mt-44 mb-2 ">Prezentacja firmy</p>
+            <h3 class=" fadejs text-5xl uppercase text-left mb-7">Zobacz naszą galerię zdjęć</h3>
+             <a class=" fadejs text-[rgb(1,71,255)] font-semibold  inline-block text-lg mr-7 
+             pt-0 underline" href="">Samochody osobowe</a> 
+            
+            <a class=" fadejs inline-block text-lg font-normal" href="">Samochody dostawcze</a>
+            
+           
+
+        </section>
+         <!--IMAGE SLIDER  -->
+           
+         <div id="galeria" class="display-area fadejs ">
+            <div class="cards-wrapper">
+              
+              <div class="card"><img src="img/ford-mustang-wynajem.jpg " alt=""></div>
+              <div class="card"><img src="img/alfa.jpg" alt=""></div>  
+              <div class="card"><img src="img/camaro.jpg" alt=""></div>
+              <div class="card"><img src="img/ferrari.jpg" alt=""></div>
+              <div class="card"><img src="img/dodge.jpg" alt=""></div>
+              <div class="card"><img src="img/mitsubishi.jpg" alt=""></div>
+              <div class="card"><img src="img/lambo.jpg" alt=""></div>
+              <div class="card"><img src="img/landr.jpg" alt=""></div>
+            
+          
+             
+            </div> 
+          </div>
+          
+          <div class="dots-wrapper">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+        
+          </div>
+           <!--IMAGE SLIDER  -->
+        
+        
+        
+    </main>
+    <footer class=" footer bg-[rgb(40,40,40)] border-b-[1px] w-full mt-28 flex text-[rgb(255,255,255)]  ">
+        <div class=" rozwin1 flex flex-col p-8 ml-16 mr-2 w-11/12  ">
+        <h4 class=" text-xl text-justify -tracking-normal uppercase  p-5  ">id nostrud edim esse consectetur
+             in eu mollit fugiat aute. velut nulla <br> commodo. </h4>
+        <p class=" text-xs p-5 w-full ">Lorem ipsum dolor sit amet, consectetur
+             adipiscing elit. Phasellus imperdiet, 
+             nulla et dictum interdum, nisi lorem egestas vitae scel
+             <span id="dots1">[...]</span>
+             <span  id="more1">erisque enim ligula venenatis dolor. 
+                Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
+                 Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi,
+                  sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                   imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                    Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+                </span></p>
+
+<button class="text-left text-xs  ml-5" onclick="Function1()" id="Btn1">Rozwiń &#9660;</button>
+</div>
+        <div class=" rozwin2 flex flex-col p-8   w-11/12 ">
+        <h5 class="text-xl uppercase text-left p-5">id nostrud edim esse consectetur in eu mollit fugiat aute.
+             velut nulla <br> commodo. </h5>
+        <p class=" text-xs p-5 w-full  font-normal ">Lorem ipsum dolor sit amet, consectetur
+             adipiscing elit. Phasellus imperdiet, 
+             nulla et dictum interdum, nisi lorem egestas vitae scel
+             <span id="dots2">[...]</span>
+             <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est,
+                 ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
+                 augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+                  dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                   turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+                    fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+                </span></p>
+
+<button class="text-left text-xs ml-5" onclick="Function2()" id="Btn2">Rozwiń &#9660;</button>
+</div>
+<hr class="border-t border-gray-300 my-4 mt-72">
+
+
+
+        
+        
+
+    </footer>
+    <summary  class=" summary bg-[rgb(40,40,40)] text-[rgb(255,255,255)] text-xs flex justify-between p-7 ">
+        <p class=" ml-[5.4rem]  ">Cars Spot</p>
+        <a class="  mr-7  underline" href="">Polityka Prywatności</a>
+    </summary>
+
+    
+   
+    
+   
+</script>
+    <script src="index.js"></script>
+    
+    
+</body>
+
+
+</html>
